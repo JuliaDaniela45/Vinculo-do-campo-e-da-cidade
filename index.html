@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/scripts.js"></script>
+    <title>O vínculo do campo e da cidade</title> 
+
+   
+</head>
+
+    <!--textos-->
+    <body>
+      <header>
+      <main>
+        <section>
+    <h1>O vínculo do campo e da cidade</h1>
+    <h2>E sua valorização</h2>
+        <p>Importância</p>
+         <h3>Conexão</h3>
+         <h4>Valorização</h4>
+         </header>
+         <!--imagens inseridas feitas no Ibispaint X e variaveis-->
+         <container>
+        <div class="árvore">
+        <img src="img árvore.png" alt="árvore do site" style="width: 80%;">
+      </div>
+
+      <div class="detalhe cima esquerdo">
+      <img src="img detalhe cima esquerdo (2).png" alt="detalhe da pagina no lado esquerdo">
+      </div>
+
+      <div class="detalhe baixo esquerdo">
+      <img src="img detalhe baixo esquerdo.png" alt="detalhe da pagina no lado esquerdo">
+      </div>
+
+      <div class="detalhe cima direito">
+      <img src="img detalhe cima direito.png" alt="detalhe da pagina no lado direito">
+      </div>
+
+      <div class="detalhe baixo direito">
+      <img src="img detalhe direito baixo.png" alt="detalhe da pagina no lado direito">
+      </div>
+      <div class="planeta">
+      <img src="img planeta.png" alt="planeta com árvores" width="195px"; >
+      </div>
+      <div class="borboleta">
+      <img src="img borboleta.png" alt="borboleta com árvores" width="195px"; >
+      </div>
+      <div class="cachoeira">
+      <img src="img cachoeira.png" alt="borboleta com árvores" width="195px"; >
+      </div>
+    </container>
+    </section>
+    
+      <!--retangulos-->
+      <main>
+         <section>
+        <div class="retangulo">
+       <hr width="270px" style="height:250px;background-color:rgb(247, 247, 247); border-radius: 15%;">
+       </div>
+      </section>
+      <section>
+       
+       <div class="retangulo2">
+       <hr width="270px" style="height:250px;background-color: rgb(247, 247, 247); border-radius: 15%;">
+       </div>
+      </section>
+      <section>
+       
+       <div class="retangulo3">
+       <hr width="270px" style="height:250px; background-color:rgb(247, 247, 247) ; border-radius: 15%;">
+       </div>
+      </section>
+      </div>
+      
+      <!--botões, modal e textos presentes nos modais-->
+      <section>
+      <button id="button" class="btn">Clique aqui</button>
+      <dialog id="modal">
+         <h5>A importancia da conexão do campo com a cidade para a vida</h5>
+         <p2>
+           A ligação do campo com a cidade é de extrema importância.<br>
+         O elo entre esses dois territórios diversificados ajudam a comunidade,<br>
+         através da produção de alimentos que são levados do meio rural até o meio urbano<br>
+         e na industrialização e extração de matérias-primas.<br>
+         Por estes motivos eles são interdependente, ou seja, <br>
+         necessitam um do outro para sua sobrevivência.
+         <br>
+         </p2> 
+         <button id="button_close">Fechar</button>
+        </dialog>
+
+         
+      
+
+         <!--utilização de tags de Javascript para o funcionamento dos botões-->
+      <script>
+         const button = document.querySelector("#button")
+         const modal1 = document.querySelector("#modal1")
+         const button_close = document.querySelector("#button_close")
+
+        button.onclick = function() {
+            modal.showModal()
+        }
+        button_close.onclick = function() {
+            modal.close()
+        }
+      </script>
+        <button id="button2" class="btn2">Clique aqui</button>
+       <dialog id="modal2">
+         <h5>Como acontece o elo entre o âmbito rural e urbano</h5>
+         <p3>
+           O laço entre esse dois territórios acontece de forma harmonica e solidária,<br> pois os lados se ajudam compartilhando o que possuem.<br>
+            Desta forma contibuindo para uma vida melhor<br> de todos que moram na cidade ou no campo.<br>
+         </p3>
+         <button id="button_close2">Fechar</button>
+       </dialog>
+      
+          
+        
+       </dialog>
+
+       <script>
+
+         const button2 = document.querySelector("#button2")
+         const modal2 = document.querySelector("#modal2")
+         const button_close2 = document.querySelector("#button_close2")
+
+          button2.onclick = function() {
+            modal2.showModal()
+        }
+        button_close2.onclick = function() {
+            modal2.close()
+        }
+
+        
+
+       </script>
+       <button id="button3" class="btn3">Clique aqui</button>
+       <dialog id="modal3">
+         <h5>Valorização da união do meio urbano e rural</h5>
+         <p3>
+            Esta união deve ser cada vez mais propagada e valorizada,<br> para que ela seja vista por todos os cidadãos, <br>pois sem ela muitos alimentos que consumimos e construções que dependemos,<br> como as estradas, não existiriam.<br>
+         </p3>
+         <button id="button_close3">Fechar</button>
+       </dialog>
+       
+       <script>
+
+         const button3 = document.querySelector("#button3")
+         const modal3 = document.querySelector("#modal3")
+         const button_close3 = document.querySelector("#button_close3")
+
+          button3.onclick = function() {
+            modal3.showModal()
+        }
+        button_close3.onclick = function() {
+            modal3.close()
+        }
+        
+       </script>
+    </section>
+   </main>
+   </div>
+        <!--Videos feitos pelo celular, publicados no site youtube(edição feita pelo aplicativo Inshot e imagens feitas pelo aplicativo ibispaint X)-->   
+   <section>
+    <p4>Vídeos</p4>
+    <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5cdwTmH1Nl4?si=b6g_olHhTN1Sl1TS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 50px;"> </iframe>
+
+   <p5>Libras</p5>
+   <p6>Inglês</p6>
+   
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/CKSWcNvnR8c?si=PR_6fXJoqungr-6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  </section>
+
+         <!--Música-->
+<section>
+  <p8>Música</p8>
+  <div class="musica">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/VUaEQPb0YGg?si=tYCybLQXYpxx7hw1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</section>
+
+     <!--jogo do Scratch-->
+  <section>
+   <p7>Jogo</p7> 
+  <a href="https://scratch.mit.edu/projects/1188725185/" target="_blank" alt="Jogo sobre uma festa em comemoração a conexão campo cidade">Celebrando o elo  do campo com a cidade</a>
+</section>
+</body>
+  <footer>
+   
+  <p9>Créditos:Julia Daniela Gomes.<br>
+     Colégio:Estadual José de Anchieta.<br>
+     Cidade:Borrazópolis  2025. </p9>
+ </footer>
+   
+</html>
